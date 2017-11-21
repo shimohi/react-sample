@@ -1,14 +1,16 @@
 @import "common";
 
-.hello{
-  	color: $color-primary;
-  	@include hello_world;
-}
-.world{
+.container{
+  .hello{
+	color: $color-primary;
+	@include hello_world;
+  }
+  .world{
 	color: $color-secondary;
 	@include hello_world;
-}
-.dot{
+  }
+  .dot{
 	color: $color-tertiary;
 	@include hello_world;
+  }
 }
