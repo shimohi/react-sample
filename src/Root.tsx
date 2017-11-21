@@ -9,10 +9,17 @@ export class EditorRoot extends React.Component<any, any> {
 
 	render() {
 		return (
-			<div className={styles.container}>
-				<span className={styles.hello}>Hello</span>
-				<span className={styles.world}>world</span>
-				<span className={styles.dot}>.</span>
+			<div>
+				<div className={styles.container}>
+					<span className={styles.hello}>Hello</span>
+					<span className={styles.world}>world</span>
+					<span className={styles.dot}>.</span>
+				</div>
+				<div>
+					<span className={styles.hello}>Hello</span>
+					<span className={styles.world}>world</span>
+					<span className={styles.dot}>.</span>
+				</div>
 			</div>
 		);
 	}
