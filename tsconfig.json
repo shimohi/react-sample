@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "declaration":false,
+    "sourceMap": true,
+    "inlineSourceMap":false,
+    "strictNullChecks":true,
+    "inlineSources":true,
+    "jsx": "react",
+    "lib": ["dom", "es5", "es2015.core", "es2015.promise", "es2015.collection", "es2015.iterable", "es2015.generator"]
+  },
+  "exclude": [
+    "lib",
+    "artifact",
+    "node_modules"
+  ]
+}

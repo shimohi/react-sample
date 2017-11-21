@@ -1,0 +1,7 @@
+$color-primary: 			rgb(40,53,147);
+$color-secondary: 			rgb(255,179,0);
+$color-tertiary:			rgb(2,119,189);
+
+@mixin hello_world {
+  font-size: 5em;
+}
